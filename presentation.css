@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html:focus-within{
+    scroll-behavior: smooth;
+}
+
+/* Navbar styles */
+header {
+    background-color: blue;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+/* Add hover effect */
+/* Add this css code to your existing style.css file */
+nav ul li a:hover {
+    color: brown;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: pink;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: linear-gradient(to bottom right,white,blue);
+    text-align: center;
+    padding: 100px;
+}
+.hero-content {
+    color: violet;
+}
+.hero h1 {
+    font-size: 40px;
+}
+.button {
+    background-color: violet;
+    color: indianred;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: white;
+    color: indianred;
+}
+
+/* About section styles */
+.about-me {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    color: orangered;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+
+li a:visited {
+    color: white;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* service-section */
+.service-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card {
+    width: 30%;
+    background-color: green;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px;
+    box-sizing: border-box;
+}
+
+.service-card h3 {
+    color: beige;
+}
+
+.service-card p {
+    color: #000;
+    margin-top: 10px;
+}
+
+
+/* contact section */
+.contact-section {
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* contact */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #ff4500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+#form{
+    position: relative;
+    display: block;
+    transform: translateX(290px);
+}
+.form-group {
+    margin-bottom: 20px;
+
+    
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF5C;
+    color: bisque;
+    cursor: pointer;
+    width: 50%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #9e45a0;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+/* footer section */
+border {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+}
+
+.footer {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    background: linear-gradient(to right, #000, blue);
+    color: aliceblue;
+    padding: 10px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: white;
+    flex-direction: row;
+}
+.row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer-col {
+    display: inline-block;
+    padding: 25px;
+}
+.footer-col > ul > li{
+    display: block;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: relative;
+    left: 0;
+    bottom: 10px;
+    background-color: pink;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalise;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col .social-links a {
+    display: block;
+    height: 40px;
+    width: 60px;
+    margin: 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40%;
+    color: #bbbbbb;
+}
+.footer-col .social-links a i :hover {
+    color: blueviolet;
+    background-color: #e91e63;
+}

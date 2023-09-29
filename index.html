@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" type="text/css" href="presentation.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/
+    libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <script defer src="js.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero content">
+            <!-- Heading -->
+            <h1 class="out"></h1>
+            <br>
+            <!-- sub heading -->
+            <h2>I am a website developer</h2>
+            <br>
+            <br>
+            <a download ="mycv.docx" class="button">Dowload my CV</a>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- about section -->
+    <section id="About" class="About">
+        <section class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-me">
+                        <img src="IMG_20200417_224645_281.jpg" alt="profile picture">
+                        <br>
+                        <br>
+                        <h1 style="color:purple;">About <span style="color:blueviolet;">Me </span></h1>
+                        <p>I am a statistician who is passionate in data analyst field</p>
+                        <br>
+                        <p>
+                            I collect data from areas such as institutions,markets,houses,hospitals,hotels e.t.c where
+                            I later analyse the collected data using Microsoft Excel and other statistical softwares
+                            such as R,
+                            Python and SPSS.
+                            <br>
+                            I am also passionate in website development where I develop and design Website using
+                            HTML,CSS and Javascript.
+                            <br>
+                        </p>
+                        <ul>
+                            <!-- my social media tags -->
+                            <li><a href="https://www.linkedin.com/in/fatma-amir-914656290">Linkedin</a></li>
+                            <li><a href="https://twitter.com/FatmaAmir550836">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/it_fatmaamere?utm_source=qr&r=nametag">Instagram</a>
+                            </li>
+                            <li><a href="https:///www.tiktok.com/@fatmaamere42?_t=8g3yFeBX5hW&_r=1">Tiktok</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+        </section>
+        <!-- service section -->
+        <section id="services" class="services">
+            <h1 style="text-align: center; color: black;">My <span style="color: brown;">Services</span></h1>
+            <div class="service-section">
+                <div class="service-card">
+                    <h3>website designer</h3>
+                    <p>I have developed a robust website application</p>
+                </div>
+                <div class="service-card">
+                    <h3>UI/UX Designer</h3>
+                    <p>I design user interface for application</p>
+                </div>
+                <div class="service-card">
+                    <h3>Software development Consultation</h3>
+                    <!--service description -->
+                    <p>I consult the process of software development</p>
+                </div>
+                <br>
+                <br>
+        </section>
+        <!-- Contact session -->
+        <section id="contact" class="contact">
+            <h1>Get in touch</h1>
+            <div class="container">
+                <h2>Contact form</h2>
+                <form action="" method="post" id="form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="submit" id="btn">
+                </form>
+            </div>
+        </section>
+        <br>
+        <br>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col">
+                        <h4>Company Name</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#">Data Analysis</a></li>
+                            <li><a href="#">Website development</a></li>
+                            <li><a href="#">Software development</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Online services</h4>
+                        <ul>
+                            <li><a href="#">Data Analysis</a></li>
+                            <li><a href="#">Software Development</a></li>
+                            <li><a href="#">Website Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p style="background: unset; border:none; text-align: center;" id="year">&copy </p>
+        </footer>
+        <script>
+            let now = new Date()
+
+            let year = now.getFullYear()
+            document.querySelector('#year').textContent += year;
+
+
+
+            // blur and focus events
+
+            let form = document.getElementById("form")
+
+            form.addEventListener("focus", (event) => {
+                event.target.style.backgroundColor = "cyan"
+            }, true)
+
+            form.addEventListener("blur", (event) => {
+                event.target.style.backgroundColor = ""
+            }, true)
+
+
+
+            //form validation
+            let subbtn = document.getElementById("btn")
+            subbtn.addEventListener('click', () => {
+                let name = document.getElementById("name").value
+                let email = document.getElementById("email").value
+                let msg = document.getElementById("message").value
+
+                if (name && email && msg !== null) {
+                    alert("form submitted successfully")
+
+
+                } else {
+                    alert("please fill all the fields")
+                }
+            })
+
+            // typing simulation
+
+            let out = document.querySelector('.out')
+
+            function typing(text, index) {
+                if (index < text.length) {
+                    out.textContent += text[index];
+                    index++
+
+                    setTimeout(() => {
+                        typing(text, index)
+                    }, Math.floor(Math.random() * 200) + 100)
+                } else {
+                    setTimeout(() => {
+                        out.textContent = ""
+                        typing(text, 0)
+
+                    })
+                }
+            }
+            document.addEventListener('DOMContentLoaded', () => {
+                typing('Hi, My name is Fatma Amira', 0)
+            })
+
+
+
+            // text color changer
+            function bgColor() {
+                let pp = document.querySelector(".out");
+
+                let x = Math.floor(Math.random() * 256)
+                let y = Math.floor(Math.random() * 256)
+                let z = Math.floor(Math.random() * 256)
+
+                let textColor = "rgb(" + x + "," + y + "," + z + ")"
+                pp.style.color = textColor
+
+            }
+
+            setInterval(() => {
+                bgColor()
+            }, 100)
+
+        </script>
+</body>
+
+</html>
